@@ -1,12 +1,14 @@
 {
   "name": "heroku",
   "version": "0.0.0",
-  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.9.0"
+  },
   "scripts": {
     "preinstall": "bower install",
     "test": "gulp test"
   },
-  "devDependencies": {
+  "dependencies": {
     "bower": "~1.7.1",
     "estraverse": "~4.1.0",
     "gulp": "~3.9.0",
