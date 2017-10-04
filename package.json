@@ -2,7 +2,8 @@
   "name": "heroku",
   "version": "0.0.0",
   "devDependencies": {
-    "gulp": "~3.9.0"
+    "gulp": "~3.9.0",
+    "bower": "~1.7.1"
   },
   "dependencies": {
     "bower": "~1.7.1",
@@ -50,7 +51,7 @@
     "uglify-save-license": "~0.4.1"
   },
   "scripts": {
-    "preinstall": "bower install"
+    "postinstall": "bower install"
   },
   "engines": {
     "node": ">=0.10.0"
