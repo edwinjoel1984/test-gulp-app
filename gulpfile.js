@@ -28,18 +28,18 @@ gulp.task('default', ['clean'], function () {
   gulp.start('build');
 });
 
-gulp.task('heroku:production',['build'], function(){
-  console.log('herokuproduction');
-});
+// gulp.task('heroku:production',['build'], function(){
+//   console.log('herokuproduction');
+// });
 
-gulp.task('heroku:staging',['build'], function(){
-  console.log('herokuproduction');
-});
+// gulp.task('heroku:staging',['build'], function(){
+//   console.log('herokuproduction');
+// });
 
-gulp.task('heroku:',['build'], function(){
-  console.log('herokuproduction');
-});
-gulp.task('heroku',['build'], function(){
-  console.log('herokuproduction');
-});
+// gulp.task('heroku:',['build'], function(){
+//   console.log('herokuproduction');
+// });
+// gulp.task('heroku',['build'], function(){
+//   console.log('herokuproduction');
+// });
 
