@@ -28,7 +28,7 @@ gulp.task('default', ['clean'], function () {
   gulp.start('build');
 });
 
-gulp.task('heroku',['build'], function(){
+gulp.task('heroku:',['build'], function(){
   console.log('herokuproduction');
 });
 
